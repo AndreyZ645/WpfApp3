@@ -1,0 +1,15 @@
+﻿<Window x:Class="WpfApp3.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp3"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Button Content="Окно 2" HorizontalAlignment="Center" Margin="0,264,0,0" VerticalAlignment="Top" Height="45" Width="108" Click="Button_Click"/>
+        <Button Content="Цвет" HorizontalAlignment="Center" Margin="0,359,0,0" VerticalAlignment="Top" Height="26" Width="54" Click="Button_Click_1"/>
+        <Button Content="Button" HorizontalAlignment="Left" Margin="400,190,0,0" VerticalAlignment="Top" Click="Button_Click_2"/>
+
+    </Grid>
+</Window>
